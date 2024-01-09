@@ -22,9 +22,9 @@ public class ScanFileUtils {
 
     public static void main(String[] args) {
         //获取html页的根目录
-        File[] allHtmlFiles = getAllHtmlFiles("G:\\仿站1\\json5.cc");
+        File[] allHtmlFiles = getAllHtmlFiles("G:\\xx1\\jsonx.cc");
         //获取要被扫描静态文件的相对目录
-        staticMap= getAllFilesAbsPath("G:\\仿站1\\json5.cc\\static");
+        staticMap= getAllFilesAbsPath("G:\\xxx\\xx.cc\\static");
 
         //遍历html目录
         for (File allHtmlFile : allHtmlFiles) {
